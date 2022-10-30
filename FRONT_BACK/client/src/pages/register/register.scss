@@ -1,0 +1,110 @@
+.register {
+    height: 100vh;
+    background-image: url("https://media3.giphy.com/media/uWMwQYgYVHVGU/giphy.gif?cid=ecf05e47tk00r6xsk5627b9h5a1i2vr66r0py8i2hj5tf5c8&rid=giphy.gif&ct=g");
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    .card {
+      width: 65%;
+      display: flex;
+      flex-direction: row-reverse;
+      background-color: white;
+      border-radius: 10px;
+      min-height: 600px;
+      overflow: hidden;
+  
+      .left {
+        flex: 1;
+        background-image: linear-gradient(to bottom, #2c0205, #712b1f, #b36225, #e5a620, #fff52c);
+        background-size: cover;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        color: white;
+
+        
+        .images p{
+          color:#fff;
+          font-size: large;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+  
+        h1 {
+          font-size: 50px;
+          line-height: 50px;
+          margin-top: -15px;
+          padding-left: 100px;
+        }
+        
+        p {
+          color:#fff;
+          font-size: large;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+  
+        h2 {
+          margin-top: 30px;
+          padding-left: 80px;
+          font-size: 35px;
+        }
+        h6{
+          margin-top: -50px;
+          font-size: 15px;
+        }
+        button {
+          width: 50%;
+          margin-left: 100px;
+          padding: 10px;
+          border: 2px solid black;
+          border-radius: 15px;
+          background-color: transparent;
+          color: rgb(255, 255, 255);
+          font-weight: bold;
+          font-size: large;
+          cursor: pointer;
+        }
+      }
+  
+      .right {
+        flex: 1;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+  
+        h1 {
+        color: rgb(0, 0, 0);
+        padding-left: 100px;
+        
+        }
+        
+        
+        form {
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+          
+          input {
+          border: none;
+          border-bottom: 1px solid rgb(0, 0, 0);
+          padding: 10px 5px;
+          }
+          
+          button {
+            width: 50%;
+            padding: 10px;
+            border: 2px solid #fff;
+            border-radius: 15px;
+            background-color: #938eef;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }

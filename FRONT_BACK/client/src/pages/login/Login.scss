@@ -1,0 +1,111 @@
+.login {
+  height: 100vh;
+  background-image: url("https://media3.giphy.com/media/uWMwQYgYVHVGU/giphy.gif?cid=ecf05e47tk00r6xsk5627b9h5a1i2vr66r0py8i2hj5tf5c8&rid=giphy.gif&ct=g");
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .card {
+    width: 65%;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    min-height: 600px;
+    overflow: hidden;
+
+    .left {
+      flex: 1;
+      background-image: linear-gradient(to bottom, #2c0205, #712b1f, #b36225, #e5a620, #fff52c);
+
+
+      background-size: cover;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      color: white;
+
+      h1 {
+        font-size: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 50px;
+        margin-top: -15px;
+      }
+     
+      p {
+        font-size: large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      h2 {
+        margin-top: 30px;
+        padding-left: 65px;
+        font-size: 30px;
+      }
+
+
+
+      button {
+        width: 50%;
+        margin-left: 100px;
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 15px;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: large;
+        cursor: pointer;
+      }
+    }
+
+    .right {
+      flex: 1;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      justify-content: center;
+
+      h1 {
+
+        color: rgb(0, 0, 0);
+        align-content: center;
+        padding-left: 100px;
+        margin-top: -25px;
+
+      }
+
+      .resim img {
+        width: 100px;
+        height: 100px;
+        padding-left: 120px;
+      }
+
+      form {
+        margin-top: -25px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        input {
+          border: none;
+          border-bottom: 1px solid rgb(0, 0, 0);
+          padding: 20px 10px;
+        }
+
+        button {
+          width: 50%;
+          padding: 10px;
+          border: 2px solid #fff;
+          border-radius: 15px;
+          background-color: #938eef;
+          color: rgb(255, 255, 255);
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
