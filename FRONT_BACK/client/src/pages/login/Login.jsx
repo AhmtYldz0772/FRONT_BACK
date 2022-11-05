@@ -2,8 +2,17 @@ import "./Login.scss";
 import { Link } from "react-router-dom";
 import {Formik} from "formik";
 import * as Yup from "yup";
+import { useContext } from "react";
+import { AuthContext } from "../../context/authContext";
 
 const Login = () => {
+
+  const { login } = useContext(AuthContext);
+
+  const handleLogin = () => {
+    login();
+  };
+
   return (
     <div className="login">
       <div className="card">
@@ -61,7 +70,7 @@ const Login = () => {
                  <div className="input-feedback">{errors.password}</div>
                )}
                <a href="/password">Şifremi unuttum</a>
-              <button type="submit" disabled={!dirty || isSubmitting} >Giriş Yap</button>
+              <button type="submit" disabled={!dirty || isSubmitting} onClick={handleLogin} >Giriş Yap</button>
              </form>
 
 
