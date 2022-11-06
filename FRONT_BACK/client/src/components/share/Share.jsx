@@ -14,7 +14,7 @@ const Share = () => {
             src={currentUser.profilePic}
             alt=""
           />
-          <input type="text" placeholder={`What's on your mind ${currentUser.name}?`} />
+          <input type="text" placeholder={`Aklınızdan ne geçiyor ${currentUser.name}?`} />
         </div>
         <hr />
         <div className="bottom">
@@ -23,20 +23,20 @@ const Share = () => {
             <label htmlFor="file">
               <div className="item">
                 <img src="https://i.hbrcdn.com/haber/2021/10/28/magazin-kurtlar-vadisi-elif-kim-kurtlar-vadisi-elif-14493326_127_amp.jpg" alt="" />
-                <span>Add Image</span>
+                <span>Fotoğraf</span>
               </div>
             </label>
             <div className="item">
               <img src="https://i.hbrcdn.com/haber/2021/10/28/magazin-kurtlar-vadisi-elif-kim-kurtlar-vadisi-elif-14493326_127_amp.jpg" alt="" />
-              <span>Add Place</span>
+              <span>konum</span>
             </div>
             <div className="item">
               <img src="https://i.hbrcdn.com/haber/2021/10/28/magazin-kurtlar-vadisi-elif-kim-kurtlar-vadisi-elif-14493326_127_amp.jpg" alt="" />
-              <span>Tag Friends</span>
+              <span>Etiket</span>
             </div>
           </div>
           <div className="right">
-            <button>Share</button>
+            <button>Paylaş</button>
           </div>
         </div>
       </div>

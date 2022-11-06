@@ -19,65 +19,47 @@ const LeftBar = () => {
           </div>
           <div className="item">
             <img src="https://cdn.yenicaggazetesi.com.tr/news/438570.jpg" alt="" />
-            <span>Friends</span>
+            <span>Arkadaş</span>
           </div>
           <div className="item">
             <img src="https://cdn.yenicaggazetesi.com.tr/news/438570.jpg" alt="" />
-            <span>Groups</span>
+            <span>Gruplar</span>
           </div>
           <div className="item">
             <img src="https://cdn.yenicaggazetesi.com.tr/news/438570.jpg" alt="" />
-            <span>Marketplace</span>
+            <span>Market</span>
           </div>
           <div className="item">
             <img src="https://cdn.yenicaggazetesi.com.tr/news/438570.jpg" alt="" />
-            <span>Watch</span>
+            <span>İzle</span>
           </div>
           <div className="item">
             <img src="https://cdn.yenicaggazetesi.com.tr/news/438570.jpg" alt="" />
-            <span>Memories</span>
+            <span>Kayıtlı</span>
           </div>
         </div>
         <hr />
         <div className="menu">
-          <span>Your shortcuts</span>
+          <span>Kısayollarınız</span>
           <div className="item">
             <img src="https://cdn.yenicaggazetesi.com.tr/news/438570.jpg" alt="" />
             <span>Events</span>
           </div>
           <div className="item">
             <img src="https://cdn.yenicaggazetesi.com.tr/news/438570.jpg" alt="" />
-            <span>Gaming</span>
+            <span>Galleri</span>
           </div>
           <div className="item">
             <img src="https://cdn.yenicaggazetesi.com.tr/news/438570.jpg" alt="" />
-            <span>Gallery</span>
+            <span>Flim</span>
           </div>
           <div className="item">
             <img src="https://cdn.yenicaggazetesi.com.tr/news/438570.jpg" alt="" />
-            <span>Videos</span>
-          </div>
-          <div className="item">
-            <img src="https://cdn.yenicaggazetesi.com.tr/news/438570.jpg" alt="" />
-            <span>Messages</span>
+            <span>Messaj</span>
           </div>
         </div>
         <hr />
-        <div className="menu">
-          <span>Others</span>
-          <div className="item">
-            <img src="https://cdn.yenicaggazetesi.com.tr/news/438570.jpg" alt="" />
-            <span>Fundraiser</span>
-          </div>
-          <div className="item">
-            <img src="https://cdn.yenicaggazetesi.com.tr/news/438570.jpg" alt="" />
-            <span>Tutorials</span>
-          </div>
-          <div className="item">
-            <img src="https://cdn.yenicaggazetesi.com.tr/news/438570.jpg" alt="" />
-            <span>Courses</span>
-          </div>
-        </div>
+       
       </div>
     </div>
   );
