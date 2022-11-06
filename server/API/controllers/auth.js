@@ -3,6 +3,9 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 
 const register = async (req, res) => {
+    
+       
+  
   try {
     const { username, email, password } = req.body; // front end kısmından gelenler
     const user = await Auth.findOne({ email });
