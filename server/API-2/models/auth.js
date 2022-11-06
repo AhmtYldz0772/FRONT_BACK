@@ -5,48 +5,48 @@ const AuthSchema = new mongoose.Schema({
   name: {
     type: String,
     required: true,
-    trim: true, // ismin başındaki ve sonundaki boşlukları almak için
+    trim: true, //  başındaki ve sonundaki boşlukları almak için
     //max-lenght gelecek
   },
   surname: {
     type: String,
     required: true,
-    trim: true, // ismin başındaki ve sonundaki boşlukları almak için
-    //max-lenght gelecek
+    trim: true, //  başındaki ve sonundaki boşlukları almak için
   },
   username: {
     type: String,
     required: true,
-    trim: true, // ismin başındaki ve sonundaki boşlukları almak için
-    //max-lenght gelecek
+    trim: true, //  başındaki ve sonundaki boşlukları almak için
+
   },
   email: {
     type: String,
     required: true,
     unique: true, // aynı maili engelliyoruz
     trim: true,
-    //max-lenght gelecek
+
   },
   password: {
     type: String,
     required: true,
     trim: true,
-    //max-lenght gelecek
+    
   },
   passwordagain: {
     type: String,
     required: true,
     trim: true,
-    //max-lenght gelecek
+   
   },
   birthdate: {
-    type: Date,
-    default: new Date(),
+    type: String,
+    required: true,
     trim: true,
   },
 });
 
-module.exports = mongoose.model("auth", AuthSchema, "auth");
+module.exports = mongoose.model("authtentacion", AuthSchema);
+
 //     name: "",
 //     surname: "",
 //     usersurname: "",

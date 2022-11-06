@@ -7,7 +7,6 @@ import Repass from "./pages/passwordNew/Repass";
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
   Outlet,
   Navigate,
 } from "react-router-dom";
