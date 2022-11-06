@@ -17,7 +17,7 @@ const Comments = () => {
     {
       id: 2,
       desc: "Dünkü Tost Çok İyiydi",
-      name: "Jane Doe",
+      name: "mehmet",
       userId: 2,
       profilePicture:
         "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1600",

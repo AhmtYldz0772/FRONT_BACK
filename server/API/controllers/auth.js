@@ -51,7 +51,7 @@ const login = async (req, res) => {
     }
     const comparePassword = await bcrypt.compare(password, user.password);
     if (!comparePassword) {
-      return res.status(500).json({ message: "Parolanızı yanlış" });
+      return res.status(500).json({ message: "Parolanız yanlış" });
     }
 
     const token = jwt.sign({ id: user.id }, process.env.SECRET_TOKEN, {
