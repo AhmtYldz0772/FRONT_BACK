@@ -45,8 +45,7 @@ const Register = () => {
         <div className="left">
           
           <div className="images"> <p> "Bir hiç olmak çok üzücüdür beyler. İnsanlar hep aranmak ister, dinlenmek ister, hayatta bir kez de olsa önemli olmak ister."</p></div>
-          <h2>Hesabın Var Mı?</h2>
-          <h6>1001FİLM Hesabınıza Yeniden Giriş Yapın ve Sosyalleşmeye Devam Edin</h6>
+         
           <Link to="/login">
             <button>GİRİŞ YAP</button>
           </Link>

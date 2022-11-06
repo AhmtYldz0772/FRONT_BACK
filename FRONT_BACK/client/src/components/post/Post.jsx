@@ -43,7 +43,7 @@ const Post = ({ post }) => {
           </div>
           <div className="item" onClick={() => setCommentOpen(!commentOpen)}>
             <TextsmsOutlinedIcon />
-            12 Yorum
+            2 Yorum
           </div>
           <div className="item">
             <ShareOutlinedIcon />

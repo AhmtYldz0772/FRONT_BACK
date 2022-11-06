@@ -22,13 +22,13 @@ const Login = () => {
          
           <p>"İnsan sevdiklerini öldürür diye bir söz vardır ya; aslında insanı öldüren de hep sevdiğidir."</p>
           
-          <h2>Hâla hesabın Yok mu?</h2>
+          
           <Link to="/register">
             <button>Kayıt Ol</button>
           </Link>
         </div>
         <div className="right">
-        <div className="resim"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkqzMrUZicyCOw70EbTzSGDAAhDbIHZLwuMFYCYjrynlGJQztS6D3Wp31y7KEkYq2fiDCtccaLIKMm7s105tbb7WC0tf69WuEZHqcPi_xIG9o73cxHuqTnuIqr_PVilRLuQ5d_lhjcUV2Y4SDEkJGKrVcI4dfxUrQl3yv-FjOe21ujaFrLtRaK39J-VQ/s1600/lastLogos.png"  alt="" /></div>
+        <div className="resim" ><img src="https://imgyukle.com/f/2022/11/06/JVR3mG.png"  alt="" /></div>
           <h1>Giriş Yap</h1>
           <Formik
             initialValues={{

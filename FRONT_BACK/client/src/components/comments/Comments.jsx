@@ -8,7 +8,7 @@ const Comments = () => {
   const comments = [
     {
       id: 1,
-      desc: "Birazdan göremiyeceksin...",
+      desc: "Harika bir filmdi...",
       name: "Selcuk",
       userId: 1,
       profilePicture:
@@ -16,7 +16,7 @@ const Comments = () => {
     },
     {
       id: 2,
-      desc: "Dünkü Tost Çok İyiydi",
+      desc: "Harika!",
       name: "mehmet",
       userId: 2,
       profilePicture:
